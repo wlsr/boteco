@@ -1,0 +1,4 @@
+<?php 
+interface iHistory{
+	
+}//end 

@@ -1,0 +1,301 @@
+html, body {
+  height: 100%; /* Asegura que el fondo cubra toda la pantalla */
+  margin: 0;
+  padding: 0;
+}
+
+#body-style {
+  min-height: 100%; /* Asegura que el contenedor principal ocupe toda la pantalla */
+  display: flex;
+  flex-direction: column; /* Flex para estructura interna */
+  background-color: #3c6049 !important; /* Cambia el color según tu preferencia */
+  background-image: linear-gradient(to bottom, #ffffff, #e0e0e0); /* Fondo degradado opcional */
+}
+
+#page-body-style {
+  flex: 1; /* Permite que este div crezca para llenar el espacio restante */
+  background-color: #8573bF60 !important; /* Cambia según tu diseño */
+  border-radius: 10px; /* Opcional: redondea esquinas */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+  padding-top: 50px;
+  padding-bottom: 8%;
+  padding-left:  25px;
+  padding-right: 25px;
+}
+
+.card-body{
+  background-color: #8573bF40 ;
+}
+
+.custom-search {
+    font-weight: bold;
+  }
+.first-row {
+background: linear-gradient(to bottom, rgba(0, 206, 209, 0.8), rgba(0, 0, 255, 0.2));
+  color: #000 /* Cambia el color de fondo a amarillo */
+  /* Otros estilos opcionales para resaltar la fila */
+}
+.panel.panel-azul {
+  background-color: #00FF00; /* Color verde personalizado */
+  color: #000; /* Color de texto para contrastar con el fondo */
+  /* Otros estilos opcionales para personalizar el panel */
+}
+.mod-stile{
+  background-color:#8ED6D8;
+  color: #000 /* Cambia el color de fondo a amarillo */
+  /* Otros estilos opcionales para resaltar la fila */
+}
+.verde{
+        background: #30C15E;
+    }
+
+.small-texto{
+  color: #000 
+}
+.modal-footer {
+  border-top: 10px; /* Elimina el borde superior */
+}
+
+.panel-heading{
+  padding: 5px;
+}
+#myTable-item-order td {
+  font-family:Arial, Helvetica, sans-serif; /* Cambia "Arial" por el tipo de letra deseado */
+  color :rgb(1, 1, 1);
+  font-size: 14px;
+}
+
+.table-header-dark > th {
+  font-family:Helvetica, sans-serif, Arial;
+  background-color: #2e3433 !important;
+  color: #4578AF !important; /* */
+  font-size: 14px;
+  font-weight: bold; /* Opcional: negrita */
+}
+
+.table-header-orange > th {
+  font-family:Helvetica, sans-serif, Arial;
+  background-color: #2e3433 !important;
+  color: #ec882b !important; /* */
+  font-weight: bold; /* Opcional: negrita */
+  letter-spacing: 1px;
+}
+
+.table-header-light > th {
+  font-family:Helvetica, sans-serif, Arial;
+  background-color: #88BBCC !important;
+  color: #0a0a0a !important; /* */
+  font-weight: bold; /* Opcional: negrita */
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.table-body-dark > td{ /* table body*/
+  font-family:Arial, Helvetica, sans-serif; 
+  color : #DDD !important;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background-color: #363636 !important;
+}
+
+.table-body-light > td{ /* table body*/
+  font-family:Arial, Helvetica, sans-serif; 
+  color : #111 !important;
+  font-size: 14px;
+  background-color: #BBB !important;
+}
+
+.table-txt-body td{ /* table body*/
+  font-family:Arial, Helvetica, sans-serif; 
+  color : #DDD !important;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background-color: #363636 !important;
+}
+
+.text-danger > td {
+  color: #AA3545 !important;
+}
+.title-orange {
+  color: #ecB12E !important; /* Color principal del texto */
+  text-shadow: 
+    -1px -1px 0 #000, /* Sombra arriba izquierda */
+    1px -1px 0 #000,  /* Sombra arriba derecha */
+    -1px 1px 0 #000,  /* Sombra abajo izquierda */
+    1px 1px 0 #000;   /* Sombra abajo derecha */
+}
+
+
+.text-warning > td {
+  color: #e06721 !important;
+}
+.custom-rounded-table {
+  border-radius: 20px;
+  overflow: hidden; /* Asegura que los bordes redondeados afecten también al contenido */
+  border-collapse: separate;
+}
+
+.product-col {
+  width: 40%;
+}
+.action-col {
+  width: 10%;
+}
+
+
+.custom-table-header th {
+  padding-top: 5px; /* Ajusta el espacio superior */
+  padding-bottom: 5px; /* Ajusta el espacio inferior */
+  height: 15px; /* Ajusta la altura del encabezado */
+}
+
+
+.modal-content {
+  border-radius: 40px; /* Aplica bordes redondeados a la ventana modal */
+  overflow: hidden; /* Oculta cualquier contenido que exceda los límites de la ventana modal */
+}
+
+.centro{
+	 text-align: center;
+}
+
+.left{
+   text-align: right;
+}
+
+.modal-labo{
+  width: 300px;/* Estilos adicionales del contenido de la ventana modal */
+}
+
+.footer {
+ 
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+ background-color: rgba(0, 206, 209, 0.5);
+}
+.navbar{
+	background-color: rgba(72, 111, 126, 0.712);
+	color: #977979
+}
+
+.loading-container {
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+        }
+
+#menu-toggle {
+    display: none;
+}
+
+#menu-icon {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.menu {
+    position: fixed;
+    width: 0;
+    height: 100%;
+    background-color: #333;
+    transition: 0.3s; /* Transición suave */
+    overflow-x: hidden;
+    padding-top: 60px;
+    text-align: center;
+    z-index: 1;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu-toggle:checked + #menu-icon + .menu {
+    width: 250px; /* Ancho del menú cuando se activa */
+}
+
+.item-name {
+  font-size: 13px; /* Define el tamaño de la fuente más pequeño */
+  /* Opcionalmente, puedes agregar otros estilos según sea necesario */
+}
+
+/* Añade bordes redondeados y un poco de sombra para darle un toque moderno */
+table  {
+  border-radius: 20px ;  /* Bordes redondeados en toda la tabla */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  overflow: hidden; /* Asegura que los bordes redondeados se mantengan */
+}
+
+/* Botones generales */
+button {
+  border-radius: 12px !important; /* Bordes redondeados */
+  border: none !important;        /* Quitar bordes predeterminados */
+  cursor: pointer;     /* Cambiar el cursor al pasar sobre el botón */
+}
+
+input {
+  border-radius: 12px !important; /* Bordes redondeados */
+  border: none !important;        /* Quitar bordes predeterminados */
+  cursor: pointer;     /* Cambiar el cursor al pasar sobre el botón */
+}
+
+/* Personalización de las celdas de la tabla para que no se vean tan cuadradas */
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* navbar */
+.nav-title {
+  font-size: 20px;
+  padding-left: 25%;  
+}
+
+.nav-item:hover {
+  color: #99CCFF;
+  font-size: 130%;
+}
+.nav-item:hover .fa-solid {
+  color: #C3C4C3;
+  font-size: 120%;
+}
+.text-left{
+  padding-left: 52%;
+  color:  #FFF9;
+  text-shadow: #000;
+  font-size: 16px;
+  text-decoration: none;
+  text-shadow: 
+    -0px -1px 0 #000, /* Sombra arriba izquierda */
+    1px -1px 0 #000,  /* Sombra arriba derecha */
+    -1px 1px 0 #000,  /* Sombra abajo izquierda */
+    1px 1px 0 #000;   /* Sombra abajo derecha */
+}
+
+.profile-img{
+  width: 100px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
